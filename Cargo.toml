@@ -1,0 +1,15 @@
+[package]
+name = "mod-rs-migrator"
+version = "0.1.0"
+authors = ["Dzejkop <jakubtrad@gmail.com>"]
+edition = "2021"
+description = "A tool to migrate mod.rs files to self named modules"
+repository = "https://github.com/Dzejkop/mod-rs-migrator"
+readme = "./README.md"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0.69"
+clap = { version = "4.1.8", features = ["derive", "env", "color"] }
+indicatif = "0.17.3"
+tokio = { version = "1.26.0", features = ["full"] }
