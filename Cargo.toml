@@ -1,6 +1,6 @@
 [package]
 name = "mod-rs-migrator"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Dzejkop <jakubtrad@gmail.com>"]
 edition = "2021"
 description = "A tool to migrate mod.rs files to self named modules"
@@ -13,3 +13,7 @@ anyhow = "1.0.69"
 clap = { version = "4.1.8", features = ["derive", "env", "color"] }
 indicatif = "0.17.3"
 tokio = { version = "1.26.0", features = ["full"] }
+
+[dev-dependencies]
+tempdir = "0.3.7"
+indoc = "2.0"
